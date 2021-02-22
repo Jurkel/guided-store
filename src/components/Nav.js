@@ -7,17 +7,17 @@ const Nav = () => {
       <h3>Store Page</h3>
       <ul>
         <li>
-          <NavLink to='/'>
+          <NavLink exact to='/' activeClassName='active' style={{textDecoration: 'none', paddingLeft: 14}}>
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink to='/deals'>
+          <NavLink to='/deals' activeClassName='active' style={{textDecoration: 'none', paddingLeft: 14}}>
             Deals
           </NavLink>
         </li>
         <li>
-          <NavLink to='/cart'>
+          <NavLink to='/cart' activeClassName='active' style={{textDecoration: 'none', paddingLeft: 14}}>
             Cart
           </NavLink>
         </li>

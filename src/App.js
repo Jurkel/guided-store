@@ -1,9 +1,12 @@
+import { Switch, Route } from 'react-router-dom';
+import './styles/app.scss';
+//Adding Components
 import Deals from './components/Deals';
 import Cart from './components/Cart';
 import Home from './components/Home';
 import Nav from './components/Nav';
-import { Switch, Route } from 'react-router-dom';
-import './styles/app.scss';
+
+
 
 function App() {
   return (
